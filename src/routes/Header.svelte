@@ -32,6 +32,11 @@
 		display: flex;
 		width: auto;
 	}
+    
+    div a {
+        transform: translateY(4px);
+    }
+
 	header {
 		display: flex;
 		justify-content: space-between;
