@@ -45,11 +45,13 @@
 		justify-content: center;
 		position: relative;
 		width: 100%;
+		z-index: -2;
 	}
 
 	.welcome img {
 		height: 60vh;
 		top: 0;
 		display: block;
+
 	}
 </style>

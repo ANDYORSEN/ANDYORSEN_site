@@ -3,7 +3,12 @@
 	import './styles.css';
 </script>
 
+
+
 <div class="app">
+	<div class="gradient">
+	
+	</div>
 	<Header />
 
 	<main>
@@ -11,11 +16,21 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>© ANDYORSEN 2017-2023</p>
 	</footer>
 </div>
 
 <style>
+	.gradient{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100%;
+		background: linear-gradient(rgba(1,1,1,0), 10%,  purple);
+		z-index: -1;
+
+	}
 	.app {
 		display: flex;
 		flex-direction: column;
