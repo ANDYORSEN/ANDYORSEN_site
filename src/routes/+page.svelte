@@ -1,6 +1,6 @@
 <script>
 	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
+	import welcome from '$lib/images/picture.png';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
@@ -13,19 +13,18 @@
 	<h1>
 		<span class="welcome">
 			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
+				
+				<img src={welcome} alt="Welcome" />
 			</picture>
 		</span>
 
-		to your new<br />ANDYORSEN app
+		Добро пожаловать!<br />Это сайт ANDYORSEN
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		папапевегемабоди
 	</h2>
 
-	<Counter />
 </section>
 
 <style>
@@ -42,17 +41,14 @@
 	}
 
 	.welcome {
-		display: block;
+		display: flex;
+		justify-content: center;
 		position: relative;
 		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
 	}
 
 	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
+		height: 60vh;
 		top: 0;
 		display: block;
 	}
