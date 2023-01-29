@@ -9,12 +9,12 @@
 <nav>
 	<div class="left">
 		<a href="">Обо мне</a>
-		<a href="">Новости</a>	
+		<a href="">Новости</a>
 	</div>
 	<a class="logo" href="">ANDYORSEN</a>
 	<div>
 		<a href="">Проекты</a>
-		<a href="">ЧаВо</a>	
+		<a href="">ЧаВо</a>
 	</div>
 </nav>
 
@@ -32,7 +32,7 @@
 		display: flex;
 		width: auto;
 	}
-    
+
     div a {
         transform: translateY(4px);
     }
@@ -111,6 +111,7 @@
 	}
 
 	nav a {
+        overflow-x: hidden;
 		display: flex;
 		height: 100%;
 		align-items: center;

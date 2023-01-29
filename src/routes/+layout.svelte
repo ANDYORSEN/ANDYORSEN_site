@@ -53,6 +53,7 @@
         z-index: -1;
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
     }
     .artwork img {
         height: var(--artwork-size);
