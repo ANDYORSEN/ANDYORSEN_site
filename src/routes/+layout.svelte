@@ -1,10 +1,14 @@
 <script lang="ts">
 	import Header from './Header.svelte'
-	import './styles.css'
+    import './styles.css'
+    import { onMount } from 'svelte';
 
     // let variable_name: variable_type = variable_value
     let scrollpos: number = 0
 
+    onMount(async () => {
+        scrollpos = window.scrollY || (<any>window).scrollTop || document.getElementsByTagName("html")[0].scrollTop
+    })
     // можеш поменять переменную чтоби изменить скорость паралакса
     let paralax_ratio: number = 1
 
@@ -22,7 +26,7 @@
 <!-- здесь ми заставляєм код ждать пока страница не будет крутится і когда она крутится ми виполняєм функцию paralax-->
 <svelte:window on:scroll={paralax}/>
 
-<div class="app" style="--scroll: {scrollpos}px">
+<div class="app" style="--scroll: {scrollpos * paralax_ratio}px">
     <!-- все что в {} ето JS код. Такчто можно взять переменную і вставить в HTML -->
 	<Header />
 
