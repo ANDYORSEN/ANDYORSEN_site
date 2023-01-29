@@ -1,6 +1,8 @@
 <script lang="ts">
 	import background_art from '$lib/images/picture.png';
+    import artwork from '$lib/stores/artwork';
 
+    $artwork = background_art;
 </script>
 
 <svelte:head>
@@ -11,12 +13,6 @@
 
 <section>
 	<h1>
-		<span class="welcome">
-			<picture>
-				<img src={background_art} alt="background_art" />
-			</picture>
-		</span>
-
 		Добро пожаловать!<br />Это сайт ANDYORSEN
 	</h1>
 
@@ -39,18 +35,4 @@
 		width: 100%;
 	}
 
-	.welcome {
-		display: flex;
-		justify-content: center;
-		position: relative;
-		width: 100%;
-		z-index: -2;
-	}
-
-	.welcome img {
-		height: 60vh;
-		top: 0;
-		display: block;
-
-	}
 </style>
