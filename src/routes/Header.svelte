@@ -5,10 +5,10 @@
 
 <nav>
 	<div class="left">
-		<a href="">Обо мне</a>
+        <a href="/aboutme">Обо мне</a>
 		<a href="">Новости</a>
 	</div>
-	<a class="logo" href="">ANDYORSEN</a>
+    <a class="logo" href="/">ANDYORSEN</a>
 	<div>
 		<a href="">Проекты</a>
 		<a href="">ЧаВо</a>

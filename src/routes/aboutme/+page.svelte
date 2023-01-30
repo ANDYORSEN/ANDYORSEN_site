@@ -1,5 +1,5 @@
 <script lang="ts">
-	import background_art from '$lib/images/artwork2.png';
+	import background_art from '$lib/images/picture.png';
     import artwork from '$lib/stores/artwork';
     import test from '$lib/images/Aki_fan_art.png'
 
@@ -16,7 +16,7 @@
 <section>
     <!--<button on:click={() => artwork.update(() => {arttoggle = !arttoggle; return arttoggle ? background_art : test})}/>-->
 	<h1>
-		Добро пожаловать!<br />Это сайт ANDYORSEN
+		Добро пожаловать!<br />Это обо мне
 	</h1>
 
 	<h2>
