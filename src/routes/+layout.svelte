@@ -67,7 +67,7 @@
 		width: 100vw;
 		height: 100%;
         /* здесь ми можем взять переменную которую засунули в HTML і с помощью calc посчитать паралакс */
-		background: linear-gradient(rgba(1, 1, 1, 0) calc(var(--artwork-size) - 10vh - var(--scroll)), purple calc(var(--artwork-size) - var(--scroll)));
+		background: linear-gradient(rgba(1, 1, 1, 0) calc(var(--artwork-size) - 10vh - var(--scroll)), #6637a3 calc(var(--artwork-size) - var(--scroll)));
     }
     .main-content {
 		max-width: 64rem;
@@ -98,7 +98,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
-		background-color: blueviolet;
+		background-color: #48258f;
 	}
 
 	footer p {

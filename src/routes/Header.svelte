@@ -45,7 +45,7 @@
 	nav {
 		height: 5vh;
 		width: 100vw;
-		background-color: mediumpurple;
+		background-color: #a170cf;
 		display: flex;
 		justify-content: center;
 		--background: rgba(255, 255, 255, 0.7);
