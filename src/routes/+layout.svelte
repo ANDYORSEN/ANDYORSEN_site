@@ -46,7 +46,7 @@
 
 <style>
     :global(:root) {
-        --artwork-size: 65vh;
+        --artwork-size: 70vh;
     }
 
     .artwork {
@@ -98,6 +98,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		background-color: blueviolet;
 	}
 
 	footer p {

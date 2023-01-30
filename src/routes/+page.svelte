@@ -1,8 +1,10 @@
 <script lang="ts">
-	import background_art from '$lib/images/picture.png';
+	import background_art from '$lib/images/artwork2.png';
     import artwork from '$lib/stores/artwork';
+    import test from '$lib/images/picture.png'
 
     $artwork = background_art;
+    let arttoggle = true;
 </script>
 
 <svelte:head>
@@ -12,6 +14,7 @@
 
 
 <section>
+<!--	<button on:click={() => artwork.update(() => {arttoggle = !arttoggle; return arttoggle ? background_art : test})}/> -->
 	<h1>
 		Добро пожаловать!<br />Это сайт ANDYORSEN
 	</h1>

@@ -36,6 +36,8 @@
     }
 
 	header {
+		z-index: 5;
+		position: fixed;
 		display: flex;
 		justify-content: space-between;
 	}
