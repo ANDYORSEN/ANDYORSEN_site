@@ -40,6 +40,15 @@
     </main>
 
 	<footer>
+		<div class="soc">
+			<img src="src/lib/images/inst.png" alt="inst"> 
+			<img src="src/lib/images/tt.png" alt="tt">	
+			<img src="src/lib/images/yt.png" alt="yt">
+			<img src="src/lib/images/tg.png" alt="tg">
+			<img src="src/lib/images/dc.png" alt="dc">
+			<img src="src/lib/images/tw.png" alt="tw">
+		</div>
+		
 		<p>© ANDYORSEN 2017-2023</p>
 	</footer>
 </div>
@@ -63,6 +72,14 @@
         height: var(--artwork-size);
     }
 
+
+
+    .soc {
+    	display: flex;
+    	justify-content: center;
+
+    }
+
 	.gradient {
 		width: 100vw;
 		height: 100%;
@@ -81,6 +98,7 @@
 		flex-direction: column;
 		min-height: 100vh;
 	}
+
 
 	main {
 		flex: 1;
