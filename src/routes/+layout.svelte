@@ -2,6 +2,12 @@
 	import Header from './Header.svelte'
     import './styles.css'
     import { onMount } from 'svelte';
+    import instagram from "$lib/images/inst.png"
+    import tiktok from "$lib/images/tt.png"
+    import youtube from "$lib/images/yt.png"
+    import telegram from "$lib/images/tg.png"
+    import discord from "$lib/images/dc.png"
+    import twitter from "$lib/images/tw.png"
 
     // let variable_name: variable_type = variable_value
     let scrollpos: number = 0
@@ -41,12 +47,12 @@
 
 	<footer>
 		<div class="soc">
-			<img src="src/lib/images/inst.png" alt="inst"> 
-			<img src="src/lib/images/tt.png" alt="tt">	
-			<img src="src/lib/images/yt.png" alt="yt">
-			<img src="src/lib/images/tg.png" alt="tg">
-			<img src="src/lib/images/dc.png" alt="dc">
-			<img src="src/lib/images/tw.png" alt="tw">
+			<img src={instagram} alt="instagram"> 
+			<img src={tiktok} alt="tiktok">	
+			<img src={youtube} alt="youtube">
+			<img src={telegram} alt="telegram">
+			<img src={discord} alt="discord">
+			<img src={twitter} alt="twitter">
 		</div>
 		
 		<p>© ANDYORSEN 2017-2023</p>
