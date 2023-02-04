@@ -47,15 +47,16 @@
 
 	<footer>
 		<div class="soc">
-			<img src={instagram} alt="instagram"> 
-			<img src={tiktok} alt="tiktok">	
-			<img src={youtube} alt="youtube">
-			<img src={telegram} alt="telegram">
-			<img src={discord} alt="discord">
-			<img src={twitter} alt="twitter">
+			<a href="https://www.instagram.com/andyorsen/" target="_blank"><img src={instagram} alt="instagram"></a> 
+			<a href="https://www.tiktok.com/@andyorsenart" target="_blank"><img src={tiktok} alt="tiktok"></a>	
+			<a href="https://www.youtube.com/@andyorsen" target="_blank"><img src={youtube} alt="youtube"></a>
+			<a href="https://t.me/andyorsenart" target="_blank"><img src={telegram} alt="telegram"></a>
+			<a href="https://discord.gg/3wYxx4ANsn" target="_blank"><img src={discord} alt="discord"></a>
+			<a href="https://twitter.com/andyorsen" target="_blank"><img src={twitter} alt="twitter"></a>
 		</div>
 		
 		<p>© ANDYORSEN 2017-2023</p>
+
 	</footer>
 </div>
 
@@ -78,7 +79,10 @@
         height: var(--artwork-size);
     }
 
-
+    footer img {
+ 		height: 40px;
+ 		padding-left: 8px;
+	}
 
     .soc {
     	display: flex;
@@ -122,6 +126,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		padding-top: 40px;
 		background-color: #48258f;
 	}
 
@@ -131,7 +136,7 @@
 
 	@media (min-width: 480px) {
 		footer {
-			padding: 12px 0;
+			padding-top: 36px;
 		}
 	}
 </style>

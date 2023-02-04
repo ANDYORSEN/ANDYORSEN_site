@@ -32,7 +32,7 @@
 	}
 
     div a {
-        transform: translateY(4px);
+        transform: translateY(2px);
     }
 
 	header {
@@ -43,12 +43,14 @@
 	}
 
 	nav {
-		height: 5vh;
+		height: 6.5vh;
 		width: 100vw;
 		background-color: #8646e0;
 		display: flex;
 		justify-content: center;
 		--background: rgba(255, 255, 255, 0.7);
+		font-family: RobotoBold;
+
 	}
 
 	nav a {
@@ -59,9 +61,8 @@
 		padding: 0 0.5rem;
 		color: var(--color-text);
 		font-weight: 700;
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 		text-transform: uppercase;
-		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}
