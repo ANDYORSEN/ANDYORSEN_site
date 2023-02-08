@@ -16,7 +16,7 @@
 <section>
     <!--<button on:click={() => artwork.update(() => {arttoggle = !arttoggle; return arttoggle ? background_art : test})}/>-->
 	<h1>
-		Добро пожаловать!<br />Это обо мне
+		ANDYORSEN's Origins
 	</h1>
 
 	<h2>

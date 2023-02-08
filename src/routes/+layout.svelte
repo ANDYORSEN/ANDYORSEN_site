@@ -15,7 +15,7 @@
     onMount(async () => {
         scrollpos = window.scrollY || (<any>window).scrollTop || document.getElementsByTagName("html")[0].scrollTop
     })
-    // можеш поменять переменную чтоби изменить скорость паралакса
+    // можеш поменять переменную чтобы изменить скорость паралакса
     let paralax_ratio: number = 1
 
     function paralax() {
@@ -94,7 +94,7 @@
 		width: 100vw;
 		height: 100%;
         /* здесь ми можем взять переменную которую засунули в HTML і с помощью calc посчитать паралакс */
-		background: linear-gradient(rgba(1, 1, 1, 0) calc(var(--artwork-size) - 10vh - var(--scroll)), #6637a3 calc(var(--artwork-size) - var(--scroll)));
+		background: linear-gradient(rgba(1, 1, 1, 0) calc(var(--artwork-size) - 10vh - var(--scroll)), #6637a3, #9b1bd9 calc(var(--artwork-size) - var(--scroll)));
     }
     .main-content {
 		max-width: 64rem;

@@ -6,12 +6,12 @@
 <nav>
 	<div class="left">
         <a href="/aboutme">Обо мне</a>
-		<a href="">Новости</a>
+		<a href="/news">Новости</a>
 	</div>
     <a class="logo" href="/">ANDYORSEN</a>
 	<div>
-		<a href="">Проекты</a>
-		<a href="">ЧаВо</a>
+		<a href="/projects">Проекты</a>
+		<a href="/gallery">Галерея</a>
 	</div>
 </nav>
 

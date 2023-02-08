@@ -1,5 +1,5 @@
 <script lang="ts">
-	import background_art from '$lib/images/artwork2.png';
+	import background_art from '$lib/images/picture.png';
     import artwork from '$lib/stores/artwork';
     import test from '$lib/images/Aki_fan_art.png'
 
@@ -16,14 +16,12 @@
 <section>
     <!--<button on:click={() => artwork.update(() => {arttoggle = !arttoggle; return arttoggle ? background_art : test})}/>-->
 	<h1>
-		Добро пожаловать!<br />Это сайт ANDYORSEN
+		Галерея ANDYORSEN'a
 	</h1>
 
 	<h2>
-        Здесь вы можете ознакомится с моим творчеством и моими проектами. Комиксы, игры, арты и новости о всём этом.
+        Это коллекция набросков, концепт-артов и другого нарисованного мной контента, который будет со временем пополняться. Контент на данной вкладке - уникальный, и его вы не увидите нигде, за некоторыми исключениями...
 	</h2>
-
-	<img src="src/lib/images/picture.png">
 
 </section>
 
